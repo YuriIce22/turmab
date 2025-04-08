@@ -1,0 +1,45 @@
+1 - git init - Inicia o repositorio Git
+
+2 - Criar repósitorio git e pegar https
+
+3.1 - git remote add origin (https pego do git)
+3.2 git config user.name - Configura o nome do usuario
+3.3 git config user.email - Configura o email do usuario
+
+4 - git remote -v 
+
+5 - git checkout -b feature-formCliente
+
+6 - git add form1.html
+
+7 - git status
+
+8 - git commit -m "Combinando históricos dos branches para executar PR"
+
+9 - git pull origin main --allow-unrelated-histories
+
+10 - git push -u origin feature-formCliente \\ O git push é utilizado para enviar as alterações confirmadas (commits) do seu repositório local para um repositório remoto.
+
+
+____________________________________
+
+
+
+git branch - Lista todas as branchs
+git branch -m master - Renomeia uma branch
+
+git config user.name - Configura o nome do usuario
+git config user.email - Configura o email do usuario
+
+git add - Prepara um arquivo para o envio
+git commit - Envia o arquivo
+
+git status - Mostra os arquivos que são utilizados no repositorio, aqueles que estão para serem enviados e os que não estão
+git log - Mostra os commits 
+
+git remote add origin - adiciona um repositorio no github através de um link
+git remote -v - mostra o link do reposítorio do github utilizado
+git pull origin main - baixa e atualiza o repositório local a partir de um repositório remoto
+git push -u origin - O git push é utilizado para enviar as alterações confirmadas (commits) do seu repositório local para um repositório remoto.
+
+
